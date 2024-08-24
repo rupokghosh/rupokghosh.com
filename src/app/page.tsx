@@ -3,10 +3,13 @@ import Link from "next/link";
 import { ReactTyped } from "react-typed";
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-6 h-screen">
-      <nav className="flex justify-between items-center gap-8">
+    <main className="flex flex-col items-center justify-center gap-6 h-screen text-center">
+      <nav className="flex justify-between items-center md:gap-8">
+        <Link href="/blog" className="mx-2 text-gray-400 hover:underline">
+          Blog
+        </Link>
         <Link href="/project" className="mx-2 text-gray-400 hover:underline">
-          Project
+          Projects
         </Link>
         <Link href="/about" className="mx-2 text-gray-400 hover:underline">
           About
@@ -14,11 +17,8 @@ export default function Home() {
         <Link href="/contact" className="mx-2 text-gray-400 hover:underline">
           Contact
         </Link>
-        <Link href="/blog" className="mx-2 text-gray-400 hover:underline">
-          Blog
-        </Link>
       </nav>
-      <h1 className="text-6xl font-bold text-left">
+      <h1 className=" text-4xl md:text-6xl font-bold">
         <ReactTyped
           strings={["rupok ghosh."]}
           typeSpeed={50}
