@@ -1,8 +1,9 @@
+"use client";
 import Link from "next/link";
-
+import { ReactTyped } from "react-typed";
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center gap-6 h-screen text-center">
+    <main className="flex flex-col items-center justify-center gap-6 h-screen">
       <nav className="flex justify-between items-center gap-8">
         <Link href="/project" className="mx-2 text-gray-400 hover:underline">
           Project
@@ -17,9 +18,15 @@ export default function Home() {
           Blog
         </Link>
       </nav>
-      <h1 className="text-6xl font-bold">rupok ghosh.</h1>
+      <h1 className="text-6xl font-bold text-left">
+        <ReactTyped
+          strings={["rupok ghosh."]}
+          typeSpeed={50}
+          showCursor={false}
+        />
+      </h1>
       <h3 className="text-gray-400 mt-3">
-        software engineer, writer, and creator. 
+        software engineer, writer, and creator.
       </h3>
     </main>
   );
