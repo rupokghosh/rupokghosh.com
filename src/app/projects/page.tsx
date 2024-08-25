@@ -14,6 +14,7 @@ const Projects = () => {
             working on.
           </p>
           <hr className="border-gray-400 my-6" />
+          {/* Project Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-16">
             <ProjectCard
               title="Build It"
