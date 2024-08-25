@@ -11,9 +11,6 @@ export default function Home() {
         <Link href="/projects" className="mx-2 text-gray-400 hover:underline">
           Projects
         </Link>
-        <Link href="/about" className="mx-2 text-gray-400 hover:underline">
-          About
-        </Link>
         <Link href="/contact" className="mx-2 text-gray-400 hover:underline">
           Contact
         </Link>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-const linkClasses = "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-white";
+const linkClasses =
+  "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-white";
 
 function Nav() {
   return (
@@ -23,11 +24,6 @@ function Nav() {
               </Link>
             </li>
             <li className="py-2">
-              <Link href="/about" className={linkClasses}>
-                About
-              </Link>
-            </li>
-            <li className="py-2">
               <Link href="/contact" className={linkClasses}>
                 Contact
               </Link>
@@ -41,9 +37,6 @@ function Nav() {
         </Link>
         <Link href="/projects" className={linkClasses}>
           Projects
-        </Link>
-        <Link href="/about" className={linkClasses}>
-          About
         </Link>
         <Link href="/contact" className={linkClasses}>
           Contact
