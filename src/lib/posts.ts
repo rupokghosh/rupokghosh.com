@@ -12,6 +12,7 @@ type PostMetaData = {
   date: string;
   description?: string;
   slug: string;
+  excerpt: string;
 };
 
 export function getSortedPostsData(): PostMetaData[] {
@@ -20,13 +21,17 @@ export function getSortedPostsData(): PostMetaData[] {
     const slug = fileName.replace(/\.md$/, '');
     const fullPath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data } = matter(fileContents);
+    const { data, content } = matter(fileContents);
+
+    // Extract the first 150 characters as an excerpt
+    const excerpt = content.slice(0, 150) + ' ...';
 
     return {
       slug,
       title: data.title,
       date: data.date,
       description: data.description,
+      excerpt,
     } as PostMetaData;
   });
 
