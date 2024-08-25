@@ -11,7 +11,7 @@ function Nav() {
       <div className="md:hidden">
         <details className="relative">
           <summary className="text-3xl cursor-pointer list-none">☰</summary>
-          <ul className="flex flex-col rounded-lg shadow-md mt-2 p-4 absolute right-0 bg-white">
+          <ul className="flex flex-col rounded-lg shadow-md mt-2 p-4 absolute right-0 bg-black">
             <li className="py-2">
               <Link href="/blog" className={linkClasses}>
                 Blog
