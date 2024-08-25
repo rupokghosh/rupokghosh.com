@@ -1,5 +1,6 @@
 // src/app/blog/[slug]/page.tsx
-import { getPostData } from '@/lib/posts';
+import Nav from "@/components/navigation";
+import { getPostData } from "@/lib/posts";
 
 type PostProps = {
   params: {
@@ -11,11 +12,25 @@ export default async function PostPage({ params }: PostProps) {
   const postData = await getPostData(params.slug);
 
   return (
-    <article className="prose mx-auto">
-      <h1 className="text-4xl font-bold mb-6">{postData.title}</h1>
-      <p className="text-gray-600 mb-6">{postData.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    </article>
+    <div>
+      <Nav />
+
+      <div className="flex flex-col items-center">
+        <hr className="w-full max-w-4xl border-gray-400 my-8" />
+        <div className="prose mx-auto max-w-4xl">
+          <h1 className="text-4xl text-gray-400 font-bold my-8">
+            {postData.title}
+          </h1>
+
+          <p className="text-gray-300 text-sm mb-8">{postData.date}</p>
+
+          <div
+            dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+            className="text-gray-400"
+          />
+        </div>
+      </div>
+    </div>
   );
 }
 
