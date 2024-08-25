@@ -8,7 +8,7 @@ export default function Home() {
         <Link href="/blog" className="mx-2 text-gray-400 hover:underline">
           Blog
         </Link>
-        <Link href="/project" className="mx-2 text-gray-400 hover:underline">
+        <Link href="/projects" className="mx-2 text-gray-400 hover:underline">
           Projects
         </Link>
         <Link href="/about" className="mx-2 text-gray-400 hover:underline">
