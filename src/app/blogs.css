@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+a {
+  @apply text-gray-400 ;
+  &:hover {
+    @apply underline;
+  }
+}
+
+img {
+  @apply my-8 rounded-lg w-max h-96 ;
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-300 my-4;
+  
+}
+
+p {
+  @apply my-4 text-gray-500;
+}
+ul, ol {
+  @apply list-disc pl-5 my-2;
+}
+
+li {
+  @apply my-4 text-gray-500;
+}
+
+blockquote {
+  @apply border-l-4 border-rose-500 pl-4 italic my-8 text-xl;
+}
+
+code {
+  @apply p-1 rounded-lg;
+  background-color: #2d2d2d; /* Dark background for code */
+  font-family: 'Fira Code', monospace; /* Monospaced font */
+}
+
+/* Additional CSS for specific syntax highlighting (manually) */
+
+pre {
+  background-color: #2d2d2d; /* Dark background */
+  color: #f8f8f2; /* Light text color */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}

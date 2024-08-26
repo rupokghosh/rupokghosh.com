@@ -17,7 +17,7 @@ export default function BlogPage() {
             <li key={slug} className="p-4 rounded-lg shadow-md transition-transform transform hover:-translate-y-4 relative group">
               <Link href={`/blog/${slug}`} passHref>
                 <div className="flex flex-col items-center hover:shadow-md rounded-md px-4 py-2 border-gray-600 transition duration-300 ease-in-out md:items-start md:h-full md:w-full cursor-pointer gap-4">
-                  <div className="text-xl font-bold text-gray-200">{title}</div>
+                  <div className="text-xl font-bold text-gray-400">{title}</div>
                   <p className="text-gray-400">{date}</p>
                   <p className="text-gray-600">{excerpt}</p>
                   <button className="flex items-center rounded text-red-900 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
