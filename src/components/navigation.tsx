@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const linkClasses =
-  "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-rose-200 text-rose-500";
+  "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-whitegi text-rose-500";
 
 function Nav() {
   return (
