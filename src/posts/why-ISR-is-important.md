@@ -17,4 +17,6 @@ As you may know, traditional static sites are fast but lack real-time content up
 
 To use ISR, you add the `revalidate` prop to `getStaticProps`. Here’s an example code snippet taken from the Next.js official documentation:
 
-![Alt text](/nextjs.png)
+![image of code](/nextjs.png)
+
+[Check this out](why-ISR-is-important) if you want to know how useDebounce works. 

@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const linkClasses =
-  "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-white";
+  "text-lg transition-transform transform hover:-translate-y-1 hover:underline hover:text-rose-200 text-rose-500";
 
 function Nav() {
   return (
     <div className="flex justify-between items-center p-4 mx-8 my-4 text-gray-400">
-      <Link href="/" className="text-5xl font-bold">
+      <Link href="/" className="text-5xl font-bold text-rose-500 ">
         r.
       </Link>
       <div className="md:hidden">

@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center gap-6 h-screen text-center">
       <nav className="flex justify-between items-center md:gap-8">
-        <Link href="/blog" className="mx-2 text-gray-400 hover:underline">
+        <Link href="/blog" className="mx-2 text-rose-500 hover:underline">
           Blog
         </Link>
-        <Link href="/projects" className="mx-2 text-gray-400 hover:underline">
+        <Link href="/projects" className="mx-2 text-rose-500 hover:underline">
           Projects
         </Link>
-        <Link href="/contact" className="mx-2 text-gray-400 hover:underline">
+        <Link href="/contact" className="mx-2 text-rose-500 hover:underline">
           Contact
         </Link>
       </nav>
