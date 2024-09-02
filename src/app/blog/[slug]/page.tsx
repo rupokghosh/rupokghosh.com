@@ -2,11 +2,18 @@
 import Nav from "@/components/navigation";
 import { getPostData } from "@/lib/posts";
 import "../../blogs.css";
+import { format } from 'date-fns';
+
 type PostProps = {
   params: {
     slug: string;
   };
 };
+
+function formatDate(dateString: string) {
+  const date = new Date(dateString);
+  return format(date, "do MMMM yyyy");
+}
 
 export default async function PostPage({ params }: PostProps) {
   const postData = await getPostData(params.slug);
@@ -21,7 +28,7 @@ export default async function PostPage({ params }: PostProps) {
             {postData.title}
           </h1>
           <p className="text-rose-500 text-xs sm:text-sm lg:text-base mb-8">
-            Written by Rupok on {postData.date}
+            Written by Rupok on {formatDate(postData.date)}
           </p>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
