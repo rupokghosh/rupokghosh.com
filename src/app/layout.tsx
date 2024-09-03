@@ -11,6 +11,21 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "rupokghosh",
   description: "This is the personal website of Rupok Ghosh",
+  openGraph: {
+    title: "rupokghosh",
+    description:
+      "Personal website of Rupok Ghosh",
+    url: "https://rupokghosh.com",
+    images: [
+      {
+        url: "https://rupokghosh.com/image.png",
+        width: 1200,
+        height: 630,
+        alt: "website preview",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
