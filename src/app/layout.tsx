@@ -26,6 +26,13 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "rupokghosh",
+    description:
+      "Personal website of Rupok Ghosh",
+    images: [{ url: "https://rupokghosh.com/image.png" }],
+  },
 };
 
 export default function RootLayout({
