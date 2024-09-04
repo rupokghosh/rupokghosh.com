@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "rupokghosh",
   description: "This is the personal website of Rupok Ghosh",
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     title: "rupokghosh",
     description:
