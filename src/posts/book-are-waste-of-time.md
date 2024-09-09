@@ -1,10 +1,12 @@
 ---
 title: "Reading books are a waste of time"
 date: "2024-09-09"
-
+coverImage: "/bookguy.png"
 ---
 
-I have read a lot of books, trust me, and I have surely gained a vast amount of knowledge. But what I have also learned is that they are often a huge waste of time. It might be an unpopular opinion but it is true.
+I have been reading a lot of books lately and sure, I have gained a vast amount of knowledge. But what I have also learned is that they are often a huge waste of time. It might be an unpopular opinion but it is true.
+
+![image of book](/bookguy.png)
 
 You have probably heard a million times that how important it is to pick up a book and get lost in its pages. I am not trying to argue that, in fact, I do think and believe that it's true. If you want to achieve knowledge in any domain, just read. Books are incredible. So what's the problem?
 
