@@ -1,6 +1,7 @@
 ---
 title: "Why understanding Incremental Static Regeneration (ISR) can help you build faster websites"
 date: "2024-08-24"
+coverImage: "/nextjs.png"
 ---
 
 As you may know, traditional static sites are fast but lack real-time content updates. On the other hand, fully dynamic sites can drastically slow down your performance.
@@ -19,4 +20,4 @@ To use ISR, you add the `revalidate` prop to `getStaticProps`. Here’s an examp
 
 ![image of code](/nextjs.png)
 
-[Check this out](why-ISR-is-important) if you want to know how useDebounce works. 
+[Check this out](why-ISR-is-important) if you want to know how useDebounce works.
