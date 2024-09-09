@@ -22,13 +22,11 @@ export async function generateMetadata({ params }: BlogPostLayoutProps) {
     openGraph: {
       title: postData.title,
       description: postData.excerpt,
-      url: `https://yourwebsite.com/blog/${params.slug}`,
+      url: `https://rupokghosh.com/blog/${params.slug}`,
       type: "article",
       images: [
         {
-          url:
-            postData.coverImage ||
-            "https://yourwebsite.com/images/default-preview.png", // Add coverImage if available in the markdown
+          url: postData.coverImage || "https://rupokghosh.com/image.png", // Add coverImage if available in the markdown
           width: 1200,
           height: 630,
           alt: postData.title,
@@ -41,7 +39,7 @@ export async function generateMetadata({ params }: BlogPostLayoutProps) {
       description: postData.excerpt,
       images: [
         postData.coverImage ||
-          "https://yourwebsite.com/images/default-preview.png",
+          "https://rupokghosh.com/images/default-preview.png",
       ],
     },
   };
