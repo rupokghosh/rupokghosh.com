@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "700"], // You can choose the weights you need
+  weight: ["400", "700"],
 });
 
 interface BlogPostLayoutProps {
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: BlogPostLayoutProps) {
       description: postData.excerpt,
       images: [
         postData.coverImage ||
-          "https://rupokghosh.com/images/default-preview.png",
+          "https://rupokghosh.com/image.png",
       ],
     },
   };
