@@ -25,7 +25,7 @@ export function getSortedPostsData(): PostMetaData[] {
     const { data, content } = matter(fileContents);
 
     // Extract the first 150 characters as an excerpt
-    const excerpt = content.slice(0, 250) + ' ...';
+    const excerpt = content.slice(0, 150) + ' ...';
 
     return {
       slug,
@@ -50,7 +50,7 @@ export async function getPostData(slug: string) {
   const contentHtml = processedContent.toString();
 
   // Extract the first 150 characters as an excerpt
-  const excerpt = content.slice(0, 250) + ' ...';
+  const excerpt = content.slice(0, 150) + ' ...';
 
   return {
     slug,

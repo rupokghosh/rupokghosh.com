@@ -1,7 +1,7 @@
 ---
 title: "How to use useDebounce in React"
 date: "2024-08-24"
-coverImage: "/debounce.jpg"
+coverImage: "/debounce.jpeg"
 ---
 
 I recently learned about Debouncing in React and wanted to share how it can boost React Performance.
