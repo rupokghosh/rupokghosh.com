@@ -1,6 +1,7 @@
 ---
-title: "Why reading books is a waste of time"
+title: "Reading books are a waste of time"
 date: "2024-09-09"
+
 ---
 
 I have read a lot of books, trust me, and I have surely gained a vast amount of knowledge. But what I have also learned is that they are often a huge waste of time. It might be an unpopular opinion but it is true.

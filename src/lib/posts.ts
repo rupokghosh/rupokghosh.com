@@ -13,6 +13,7 @@ type PostMetaData = {
   description?: string;
   slug: string;
   excerpt: string;
+  coverImage?: string;
 };
 
 export function getSortedPostsData(): PostMetaData[] {
@@ -32,6 +33,7 @@ export function getSortedPostsData(): PostMetaData[] {
       date: data.date,
       description: data.description,
       excerpt,
+      coverImage: data.coverImage,
     } as PostMetaData;
   });
 
@@ -47,11 +49,16 @@ export async function getPostData(slug: string) {
   const processedContent = await remark().use(html).process(content);
   const contentHtml = processedContent.toString();
 
+  // Extract the first 150 characters as an excerpt
+  const excerpt = content.slice(0, 150) + ' ...';
+
   return {
     slug,
     title: data.title,
     date: data.date,
     description: data.description,
     contentHtml,
+    excerpt,
+    coverImage: data.coverImage, 
   };
 }
