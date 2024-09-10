@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <>
       <Nav />
-      <div className="flex flex-col justify-center items-center mt-12 mb-20 text-gray-400">
+      <div className="flex flex-col justify-center items-center mt-12 mb-20 dark:text-gray-400">
         <div className="flex flex-col gap-6 md:w-full md:max-w-4xl text-center md:text-left">
           <h1 className="text-3xl font-bold">Projects</h1>
           <p>

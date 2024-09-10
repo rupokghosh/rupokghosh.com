@@ -9,7 +9,7 @@ img {
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold text-gray-300 my-6;
+  @apply font-bold dark:text-gray-300 my-6;
   
 }
 
@@ -27,7 +27,7 @@ h3 {
 }
 
 p {
-  @apply my-4 text-gray-400 leading-loose;
+  @apply my-4 dark:text-gray-400 leading-loose;
 }
 ul, ol {
   @apply list-disc pl-5 my-2;

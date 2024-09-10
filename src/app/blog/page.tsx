@@ -13,11 +13,11 @@ export default function BlogPage() {
   const allPostsData = getSortedPostsData();
 
   return (
-    <div>
+    <div className="dark">
       <Nav />
       <div className="flex flex-col items-center gap-6 md:w-full md:max-w-4xl mx-auto">
         <hr className="border-gray-400 my-6 w-full" />
-        <h1 className="text-xl font-bold mb-4 text-center text-gray-400 md:text-left w-full">
+        <h1 className="text-xl font-bold mb-4 text-center dark:text-gray-400 md:text-left w-full ">
           Bits and pieces of my thoughts
         </h1>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
@@ -28,10 +28,10 @@ export default function BlogPage() {
             >
               <Link href={`/blog/${slug}`} passHref>
                 <div className="flex flex-col items-center hover:shadow-md rounded-md px-4 py-2 border-gray-600 transition duration-300 ease-in-out md:items-start md:h-full md:w-full cursor-pointer gap-4">
-                  <div className="text-xl font-bold text-gray-400 group-hover:text-rose-500">
+                  <div className="text-xl font-bold dark:text-gray-400 group-hover:text-rose-500">
                     {title}
                   </div>
-                  <p className="text-gray-400">{formatDate(date)}</p>
+                  <p className="dark:text-gray-400">{formatDate(date)}</p>
                   <p className="text-gray-600">{excerpt}</p>
                   <button className="flex items-center rounded text-rose-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     Continue Reading
