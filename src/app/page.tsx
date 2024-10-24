@@ -1,30 +1,58 @@
-"use client";
+
 import Link from "next/link";
-import { ReactTyped } from "react-typed";
+import { getSortedPostsData } from "@/lib/posts";
+
 export default function Home() {
+  const allPostsData = getSortedPostsData();
   return (
-    <main className="flex flex-col items-center justify-center gap-6 h-screen text-center">
-      <nav className="flex justify-between items-center md:gap-8">
-        <Link href="/blog" className="mx-2 text-rose-500 hover:underline">
-          Blog
-        </Link>
-        <Link href="/projects" className="mx-2 text-rose-500 hover:underline">
-          Projects
-        </Link>
-        <Link href="/contact" className="mx-2 text-rose-500 hover:underline">
-          Contact
-        </Link>
-      </nav>
-      <h1 className=" text-4xl md:text-6xl font-bold">
-        <ReactTyped
-          strings={["rupok ghosh."]}
-          typeSpeed={50}
-          showCursor={false}
-        />
-      </h1>
-      <h3 className="text-gray-400 mt-3">
-        software engineer, writer, and creator.
-      </h3>
+    <main className="mt-12 mx-10 md:ml-48">
+      <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
+      <div className="paragraphs flex flex-col gap-3 ">
+        <p>I am a full time software engineer and a part time writer.</p>
+        <p>I love building cool projects and solve hard problems.</p>
+        <p>
+          Some of my favorite projects include BuildIT, Statsify and TRU Course
+          Graph and you can find my other notable projects on my GitHub.
+        </p>
+        <p>
+          You can find me on
+          <Link
+            href="https://www.linkedin.com/in/rupokadin"
+            target="_blank"
+            className="text-blue-700"
+          >
+            {"  "}
+            LinkedIn
+          </Link>
+          ,
+          <Link
+            href="https://twitter.com/rupokghosh291"
+            target="_blank"
+            className="text-blue-700"
+          >
+            {" "}
+            X{" "}
+          </Link>
+          and email me{" "}
+          <a href="mailto:rupokghosh291@gmail.com" className="text-blue-700">
+            here.
+          </a>
+        </p>
+      </div>
+      <div className="blogs my-12">
+        <h1 className="text-xl font-bold mb-8">
+          Writings
+        </h1>
+        <ul className="list-disc pl-5">
+          {allPostsData.map(({ slug, title }) => (
+            <li key={slug} className="mb-2">
+              <Link href={`/blog/${slug}`}>
+                <div className=" text-blue-700 hover:underline">{title}</div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </main>
   );
 }
