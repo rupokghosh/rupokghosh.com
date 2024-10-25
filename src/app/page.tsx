@@ -25,7 +25,7 @@ export default function Home() {
           <Link href="https://trucourselist.netlify.app/" target="_blank" className={linkClassName}>
             TRU Course Graph
           </Link>
-          . You can find my other notable projects on{" "}
+          . You can find my other notable projects on my {" "}
           <Link href="https://github.com/rupokghosh" target="_blank" className={linkClassName}>
             GitHub
           </Link>
