@@ -1,53 +1,59 @@
-
 import Link from "next/link";
 import { getSortedPostsData } from "@/lib/posts";
+
+// Define a common className for links
+const linkClassName = "text-blue-700 hover:underline";
 
 export default function Home() {
   const allPostsData = getSortedPostsData();
   return (
     <main className="mt-12 mx-10 md:ml-48">
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
-      <div className="paragraphs flex flex-col gap-3 ">
-        <p>I am a full time software engineer and a part time writer.</p>
-        <p>I love building cool projects and solve hard problems.</p>
+      <div className="paragraphs flex flex-col gap-3">
+        <p>Full-time software engineer and part-time writer.</p>
+        <p>I love building cool projects and solving hard problems.</p>
         <p>
-          Some of my favorite projects include BuildIT, Statsify and TRU Course
-          Graph and you can find my other notable projects on my GitHub.
+          Some of my favorite projects include{" "}
+          <Link href="https://buildit-habitracker.netlify.app/" target="_blank" className={linkClassName}>
+            BuildIT
+          </Link>
+          ,{" "}
+          <Link href="https://spotistats-chi.vercel.app" target="_blank" className={linkClassName}>
+            Statsify
+          </Link>{" "}
+          and{" "}
+          <Link href="https://trucourselist.netlify.app/" target="_blank" className={linkClassName}>
+            TRU Course Graph
+          </Link>
+          . You can find my other notable projects on{" "}
+          <Link href="https://github.com/rupokghosh" target="_blank" className={linkClassName}>
+            GitHub
+          </Link>
+          .
         </p>
         <p>
           You can find me on
-          <Link
-            href="https://www.linkedin.com/in/rupokadin"
-            target="_blank"
-            className="text-blue-700"
-          >
-            {"  "}
-            LinkedIn
+          <Link href="https://www.linkedin.com/in/rupokadin" target="_blank" className={linkClassName}>
+            {" "}LinkedIn
           </Link>
           ,
-          <Link
-            href="https://twitter.com/rupokghosh291"
-            target="_blank"
-            className="text-blue-700"
-          >
-            {" "}
-            X{" "}
+          <Link href="https://twitter.com/rupokghosh291" target="_blank" className={linkClassName}>
+            {" "}X
           </Link>
-          and email me{" "}
-          <a href="mailto:rupokghosh291@gmail.com" className="text-blue-700">
-            here.
+          , and email me{" "}
+          <a href="mailto:rupokghosh291@gmail.com" className={linkClassName}>
+            here
           </a>
+          .
         </p>
       </div>
       <div className="blogs my-12">
-        <h1 className="text-xl font-bold mb-8">
-          Writings
-        </h1>
+        <h1 className="text-xl font-bold mb-8">Writings</h1>
         <ul className="list-disc pl-5">
           {allPostsData.map(({ slug, title }) => (
             <li key={slug} className="mb-2">
-              <Link href={`/blog/${slug}`}>
-                <div className=" text-blue-700 hover:underline">{title}</div>
+              <Link href={`/blog/${slug}`} className={linkClassName}>
+                {title}
               </Link>
             </li>
           ))}
@@ -56,3 +62,4 @@ export default function Home() {
     </main>
   );
 }
+

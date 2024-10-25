@@ -21,6 +21,7 @@ export default async function PostPage({ params }: PostProps) {
       <div className="max-w-2xl w-full mt-10">
         <h1 className="text-2xl font-bold text-left mb-1">{postData.title}</h1>
         <p className="text-sm text-left mb-8">{formatDate(postData.date)}</p>
+        <hr className="mb-8"/>
       </div>
       <div
         className="max-w-2xl text-left"
