@@ -1,6 +1,6 @@
 import { getPostData } from "@/lib/posts";
 import { format } from "date-fns";
-
+import Link from "next/link";
 type PostProps = {
   params: {
     slug: string;
@@ -18,11 +18,13 @@ export default async function PostPage({ params }: PostProps) {
   return (
     <div className="min-h-screen flex flex-col items-center px-4">
       {" "}
-      {/* Flexbox layout for centering */}
       <div className="max-w-2xl w-full mt-10">
         <h1 className="text-2xl font-bold text-left mb-1">{postData.title}</h1>
-        <p className="text-sm text-left mb-8">{formatDate(postData.date)}</p>
-        <hr className="mb-8" />
+        <p className="text-sm text-left mb-2">{formatDate(postData.date)}</p>
+        <Link href="/" className=" text-blue-700 hover:underline ">
+          ←
+        </Link>
+        <hr className="mb-8 mt-4" />
       </div>
       <div
         className="prose prose-md max-w-2xl w-full text-left mb-12" // Ensure prose is applied only to content
