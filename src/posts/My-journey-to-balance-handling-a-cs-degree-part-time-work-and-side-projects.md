@@ -37,7 +37,7 @@ This brings us to the next point which is Structure. In your life you are gonna 
 
 The goal is to structure your life around your static tasks and increase the amount of static tasks you have. 
 
-I must say this with great emphasis but you must use a *calendar and a to-do list*, it helps massively to help stay organized. In high school, I used to be the type of guy who hated productivity hacks and did things in a very unorganized way which led me to waste quite a lot of time. No, you don’t need a Notion second brain or anything fancy but having a calendar to visualize where your time goes every day and having a to-do list to organize your daily tasks is crucial. 
+I must say this with great emphasis but you must use a **calendar and a to-do list**, it helps massively to help stay organized. In high school, I used to be the type of guy who hated productivity hacks and did things in a very unorganized way which led me to waste quite a lot of time. No, you don’t need a Notion second brain or anything fancy but having a calendar to visualize where your time goes every day and having a to-do list to organize your daily tasks is crucial. 
 
 I suggest Google Calendar and Todoist, but even pen and paperwork. Pro-tip: Always have a deadline and priority for all your tasks, that way you can get the important ones finished on time. 
 

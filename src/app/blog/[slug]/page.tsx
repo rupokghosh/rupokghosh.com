@@ -22,7 +22,7 @@ export default async function PostPage({ params }: PostProps) {
         <h1 className="text-2xl font-bold text-left mb-1">{postData.title}</h1>
         <p className="text-sm text-left mb-2">{formatDate(postData.date)}</p>
         <Link href="/" className=" text-blue-700 hover:underline ">
-          ←
+          ← By Rupok Ghosh
         </Link>
         <hr className="mb-8 mt-4" />
       </div>
