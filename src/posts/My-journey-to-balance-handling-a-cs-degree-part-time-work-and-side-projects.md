@@ -9,14 +9,14 @@ Now, by no means am I a productivity guru who can give you 10 productivity hacks
 
 I mainly decided how to balance everything by thinking about 2 key components:
 
-1. Goals
-2. Structure
+1. **Goals**
+2. **Structure**
 
 ### Goals
 
 Why are goals so important? Because they determine your structure, your plans, and your day-to-day operations. I can probably make another blog post writing about how I approach my goals, break them down, and slowly progress toward them, but that’s going off-topic. 
 
-You need to define goals for the long-term first and what I mean by long-term is not 1-2 years but rather 5 - 10 years. Where do you see yourself? What you want to achieve.  These things are gonna change as you attain more knowledge however it’s important to know where you are headed. Then you should think about what you want to achieve in the next 8-12 months and plan it out realistically but at the same time keep it challenging. 
+You need to define goals for the **long-term** first and what I mean by long-term is not 1-2 years but rather 5 - 10 years. Where do you see yourself? What you want to achieve.  These things are gonna change as you attain more knowledge however it’s important to know where you are headed. Then you should think about what you want to achieve in the next 8-12 months and plan it out realistically but at the same time keep it challenging. 
 
 Your goals are going to set the base for balancing your life. When you know your goals, you know what’s important and what’s not. That way you can remove a lot of redundant things out from your life that consumes a terrible amount of time. 
 
@@ -24,7 +24,7 @@ The best way to clear goals is just to write them down. What do you want in the 
 
 The flow for me goes something like this:
 
-Long-term goals → short-term goals → weekly goals → daily to-dos
+**Long-term goals → short-term goals → weekly goals → daily to-dos**
 
 How does this help? It helps stay organized and on the right path. It helps not procrastinate and get back on track whenever you “don’t feel like it”. 
 
@@ -32,12 +32,12 @@ How does this help? It helps stay organized and on the right path. It helps not 
 
 This brings us to the next point which is Structure. In your life you are gonna have two types of tasks:
 
-1. **Static** - the ones that happen repeatedly at the same time ( your classes, work )
+1. **Static** - the ones that happen repeatedly at the same time ( your classes andwork )
 2. **Variable** - the ones you plan around the static tasks 
 
 The goal is to structure your life around your static tasks and increase the amount of static tasks you have. 
 
-I must say this with great emphasis but you must use a calendar and a to-do list, it helps massively to help stay organized. In high school, I used to be the type of guy who hated productivity hacks and did things in a very unorganized way which led me to waste quite a lot of time. No, you don’t need a Notion second brain or anything fancy but having a calendar to visualize where your time goes every day and having a to-do list to organize your daily tasks is crucial. 
+I must say this with great emphasis but you must use a *calendar and a to-do list*, it helps massively to help stay organized. In high school, I used to be the type of guy who hated productivity hacks and did things in a very unorganized way which led me to waste quite a lot of time. No, you don’t need a Notion second brain or anything fancy but having a calendar to visualize where your time goes every day and having a to-do list to organize your daily tasks is crucial. 
 
 I suggest Google Calendar and Todoist, but even pen and paperwork. Pro-tip: Always have a deadline and priority for all your tasks, that way you can get the important ones finished on time. 
 
@@ -59,7 +59,7 @@ I think its best to get the most cognitive tasking activities done first and of 
 
 ### Doing less is more
 
-Something that I truly believe is that “doing less is more”. What I mean by that is you should always try to reduce noise in your life and focus on things that you want to focus on. You should let go of some things that might look like it needs your attention but it doesn’t.  
+Something that I truly believe is that **“doing less is more”**. What I mean by that is you should always try to reduce noise in your life and focus on things that you want to focus on. You should let go of some things that might look like it needs your attention but it doesn’t.  
 
 Sacrifice is important, so just let go of trivial things that really don’t matter much. Your calendar and to-do shouldn’t be filled with 10 different tasks but rather 2-3 tasks that really count. Once you learn how to cut noise out, you would have much more time doing things that matters.
 
