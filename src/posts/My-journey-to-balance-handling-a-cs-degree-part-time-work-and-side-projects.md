@@ -1,6 +1,6 @@
 ---
 title: "My journey to balance: Handling a CS Degree, Part-time work, and side projects"
-date: "2024-09-09"
+date: "2024-10-29"
 ---
 
 Imagine juggling a full-time CS degree, a part-time job 20 hours a week, preparing for coding interviews ( on that LeetCode grind ), and finding time for side projects. I don’t have to imagine because I have been on that routine for more than a year now, and honestly, a lot can go wrong without proper planning—but more importantly, without proper execution. 
