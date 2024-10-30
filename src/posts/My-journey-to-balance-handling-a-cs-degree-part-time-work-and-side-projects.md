@@ -32,7 +32,7 @@ How does this help? It helps stay organized and on the right path. It helps not 
 
 This brings us to the next point which is Structure. In your life you are gonna have two types of tasks:
 
-1. **Static** - the ones that happen repeatedly at the same time ( your classes andwork )
+1. **Static** - the ones that happen repeatedly at the same time ( your classes and work )
 2. **Variable** - the ones you plan around the static tasks 
 
 The goal is to structure your life around your static tasks and increase the amount of static tasks you have. 
