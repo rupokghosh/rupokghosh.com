@@ -13,32 +13,70 @@ export default function Home() {
         <p>Full-time software engineer and part-time writer.</p>
         <p>I love building cool projects and solving hard problems.</p>
         <p>
+          I am currently co-founding and building
+          <Link
+            href="https://www.sharp-render.com/"
+            target="_blank"
+            className={linkClassName}
+          >
+            {" "}
+            Sharprender
+          </Link>
+          , a next-gen web performance monitoring tool.
+        </p>
+        <p>
           Some of my favorite projects include{" "}
-          <Link href="https://buildit-habitracker.netlify.app/" target="_blank" className={linkClassName}>
+          <Link
+            href="https://buildit-habitracker.netlify.app/"
+            target="_blank"
+            className={linkClassName}
+          >
             BuildIT
           </Link>
           ,{" "}
-          <Link href="https://spotistats-chi.vercel.app" target="_blank" className={linkClassName}>
+          <Link
+            href="https://spotistats-chi.vercel.app"
+            target="_blank"
+            className={linkClassName}
+          >
             Statsify
           </Link>{" "}
           and{" "}
-          <Link href="https://trucourselist.netlify.app/" target="_blank" className={linkClassName}>
+          <Link
+            href="https://trucourselist.netlify.app/"
+            target="_blank"
+            className={linkClassName}
+          >
             TRU Course Graph
           </Link>
-          . You can find my other notable projects on my {" "}
-          <Link href="https://github.com/rupokghosh" target="_blank" className={linkClassName}>
+          . You can find my other notable projects on my{" "}
+          <Link
+            href="https://github.com/rupokghosh"
+            target="_blank"
+            className={linkClassName}
+          >
             GitHub
           </Link>
           .
         </p>
         <p>
           You can find me on
-          <Link href="https://www.linkedin.com/in/rupokadin" target="_blank" className={linkClassName}>
-            {" "}LinkedIn
+          <Link
+            href="https://www.linkedin.com/in/rupokadin"
+            target="_blank"
+            className={linkClassName}
+          >
+            {" "}
+            LinkedIn
           </Link>
           ,
-          <Link href="https://twitter.com/rupokghosh291" target="_blank" className={linkClassName}>
-            {" "}X
+          <Link
+            href="https://twitter.com/rupokghosh291"
+            target="_blank"
+            className={linkClassName}
+          >
+            {" "}
+            X
           </Link>
           , and email me{" "}
           <a href="mailto:rupokghosh291@gmail.com" className={linkClassName}>
@@ -62,4 +100,3 @@ export default function Home() {
     </main>
   );
 }
-
