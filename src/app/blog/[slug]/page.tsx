@@ -27,7 +27,7 @@ export default async function PostPage({ params }: PostProps) {
         <hr className="mb-8 mt-4" />
       </div>
       <div
-        className="prose prose-md max-w-2xl w-full text-left mb-18" // Ensure prose is applied only to content
+        className="prose prose-md max-w-2xl w-full text-left mb-20" // Ensure prose is applied only to content
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
     </div>
