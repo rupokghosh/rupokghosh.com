@@ -84,6 +84,12 @@ export default function Home() {
           </a>
           .
         </p>
+        <p>
+          You can find my notes
+          <Link href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236">
+            here.
+          </Link>
+        </p>
       </div>
       <div className="blogs my-12">
         <h1 className="text-xl font-bold mb-8">Writings</h1>
