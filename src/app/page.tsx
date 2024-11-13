@@ -86,7 +86,12 @@ export default function Home() {
         </p>
         <p>
           You can find my notes
-          <Link href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236">
+          <Link
+            href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236"
+            target="_blank"
+            className={linkClassName}
+          >
+            {" "}
             here.
           </Link>
         </p>
