@@ -17,7 +17,7 @@ Input -> Function -> Ouput
 
 But of course, that's simplication by a stretch. 
 
-image of the network
+![image of neural network](/neural.png)
 
 Think of an ANN as three layers:
 1. Input Layer - your data
