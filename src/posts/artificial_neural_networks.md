@@ -4,7 +4,7 @@ date: "2024-11-18"
 
 ---
 
-I am writing this post as a review for my AI midterm where I am basically writing whatever I understood in the simplest language 
+I am writing this as a review for my AI midterm where I am basically writing whatever I understood in the simplest language 
 possible.
 
 Artificial Neural Networks or ANNs are just copies of our own brain's neural networks but of course at a machine level with fewer
