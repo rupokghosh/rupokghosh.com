@@ -34,27 +34,27 @@ and their functionalities.
 
 ### Components of an ANN
 
-1.**Neurons**- basic units of computation, usually carries a number called **activation** between 0 and 1. Let's say we are trying to convert handwritten
+1. **Neurons**- basic units of computation, usually carries a number called **activation** between 0 and 1. Let's say we are trying to convert handwritten
 letters to numbers, each pixel is gonna be a neuron with a number value that corresponds to how bright that pixel is. 
 
-2.**Weights** - define the strength of connections between neurons. Basically the lines that connect neurons
+2. **Weights** - define the strength of connections between neurons. Basically the lines that connect neurons
 at each layer to the next one. 
 
 3. **Biases** - we add it to the weighted sum of inputs to make calculations easier. It helps the model to adjust and shift activation thresholds.
 
-4.**Activation function** - the function that's used to calculate the activation ( the value/number ) of each neuron in the hidden layers. Some
+4. **Activation function** - the function that's used to calculate the activation ( the value/number ) of each neuron in the hidden layers. Some
 common activation functions are:
   - **Sigmoid**: Outputs values between 0 and 1.
   - **ReLU**: Outputs the input if positive, else 0.
   - **Tanh**: Outputs values between -1 and 1.
   - **Softmax**: Converts logits to probabilities for multi-class classification.
 
-5. **Cost Function** - Function that checks how terrible your output is, we use it to calculate how far "off" we are from the
+5. **Cost Function** - a function that checks how terrible your output is, we use it to calculate how far "off" we are from the
 kind of solutions we expect from our neural network. We can then use that in Backpropagation to get better results by minimizing
-our cost function. ( Higher the cost function, the more our solution is "off" our target )
+our cost function. (The higher the cost function, the more our solution is "off" our target )
 
 6. **Back Propagation** - Algorithm used to minimize error or the cost function by adjusting the weights and biases. We propagate back
-to our hidden layers and calcuate how much each weight and bias contributed to the error using the **chain rule** of calculus. Then 
+to our hidden layers and calculate how much each weight and bias contributed to the error using the **chain rule** of calculus. Then 
 we determine how to adjust the weight and bias and use an optimization algorithm, such as gradient descent to do it. We repeat until
 the cost is minimized. 
 
