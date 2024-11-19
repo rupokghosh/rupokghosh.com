@@ -35,9 +35,9 @@ and their functionalities.
 ### Components of an ANN
 
 1. **Neurons**- basic units of computation, usually carries a number called **activation** between 0 and 1. Let's say we are trying to convert handwritten
-letters to numbers, each pixel is gonna be a neuron with a number value that corresponds to how bright that pixel is. 
+letters to numbers, each pixel will be a neuron with a number value corresponding to how bright that pixel is. 
 
-2. **Weights** - define the strength of connections between neurons. Basically the lines that connect neurons
+2. **Weights** - defines the strength of connections between neurons. Basically the lines that connect neurons
 at each layer to the next one. 
 
 3. **Biases** - we add it to the weighted sum of inputs to make calculations easier. It helps the model to adjust and shift activation thresholds.
