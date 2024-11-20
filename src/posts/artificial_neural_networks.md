@@ -19,11 +19,11 @@ But of course, that's oversimplification by a stretch. Here's a drawing of a sim
 
 ![image of neural network](/neural.png)
 
-**Think of an ANN as three layers:**
+**Think of an Artificial Neural Network (ANN) as three layers:**
 
-1.**Input Layer** - your data
-2. **Hidden Layers** - multiple layers where the data is processed ( the bread and butter )
-3. **Output Layer** - solution or basically whatever you want from your data
+1. **Input Layer** - Your data.
+2. **Hidden Layers** - Multiple layers where the data is processed (the bread and butter).
+3. **Output Layer** - The solution or basically whatever you want from your data.
 
 The simplest version of an ANN would be a **Perceptron** which is a single-layer feed-forward network. It goes:
 
