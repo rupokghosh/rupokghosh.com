@@ -59,7 +59,7 @@ I think its best to get the most cognitive tasking activities done first and of 
 
 ### Doing less is more
 
-Something that I truly believe is that **“doing less is more”**. What I mean by that is you should always try to reduce noise in your life and focus on things that you want to focus on. You should let go of some things that might look like it needs your attention but it doesn’t.  
+Something that I truly believe is that [**less is more**](https://www.rupokghosh.com/blog/less_is_more). What I mean by that is you should always try to reduce noise in your life and focus on things that you want to focus on. You should let go of some things that might look like it needs your attention but it doesn’t.  
 
 Sacrifice is important, so just let go of trivial things that really don’t matter much. Your calendar and to-do shouldn’t be filled with 10 different tasks but rather 2-3 tasks that really count. Once you learn how to cut noise out, you would have much more time doing things that matters.
 
