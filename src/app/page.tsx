@@ -10,36 +10,36 @@ export default function Home() {
     <main className="mt-12 mx-10 md:ml-48">
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-3">
-        <p>Full-time software engineer and part-time writer.</p>
+        <p>
+          software engineer{" "}
+          <span>
+            <Link href="https://www.shopify.com/ca" className={linkClassName}>
+              @shopify 
+            </Link>
+          </span>{" "}
+          by day, writer by night.{" "}
+        </p>
         <p>I love building cool projects and solving hard problems.</p>
         <p>
-          I am currently co-founding and building
+          Currently working on
           <Link
             href="https://www.sharp-render.com/"
             target="_blank"
             className={linkClassName}
           >
             {" "}
-            Sharprender
+            sharprender
           </Link>
-          , a next-gen web performance monitoring tool.
+          , the next-gen web performance monitoring tool.
         </p>
         <p>
-          Some of my favorite projects include{" "}
-          <Link
-            href="https://buildit-habitracker.netlify.app/"
-            target="_blank"
-            className={linkClassName}
-          >
-            BuildIT
-          </Link>
-          ,{" "}
+          Some of my projects include ,{" "}
           <Link
             href="https://spotistats-chi.vercel.app"
             target="_blank"
             className={linkClassName}
           >
-            Statsify
+            statsify
           </Link>{" "}
           and{" "}
           <Link
@@ -47,7 +47,7 @@ export default function Home() {
             target="_blank"
             className={linkClassName}
           >
-            TRU Course Graph
+            tru course graph
           </Link>
           . You can find my other notable projects on my{" "}
           <Link
