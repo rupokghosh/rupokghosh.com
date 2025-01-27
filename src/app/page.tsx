@@ -11,15 +11,14 @@ export default function Home() {
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-3">
         <p>
-          software engineer{" "}
+          Software engineer intern{" "}
           <span>
             <Link href="https://www.shopify.com/ca" className={linkClassName}>
-              @shopify 
+              @shopify.
             </Link>
           </span>{" "}
-          by day, writer by night.{" "}
         </p>
-        <p>I love building cool projects and solving hard problems.</p>
+        <p>I write sometimes.</p>
         <p>
           Currently working on
           <Link
@@ -85,7 +84,7 @@ export default function Home() {
           .
         </p>
         <p>
-          You can find all my notes
+          All my notes reside
           <Link
             href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236"
             target="_blank"
