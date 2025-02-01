@@ -11,16 +11,16 @@ export default function Home() {
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-3">
         <p>
-          Software engineer intern{" "}
+          Software engineering intern at{" "}
           <span>
             <Link href="https://www.shopify.com/ca" className={linkClassName}>
-              @shopify.
+              shopify.
             </Link>
           </span>{" "}
         </p>
-        <p>I write sometimes.</p>
+        <p>At times, I find solace in writing. </p>
         <p>
-          Currently working on
+          Currently building
           <Link
             href="https://www.sharp-render.com/"
             target="_blank"
@@ -84,15 +84,14 @@ export default function Home() {
           .
         </p>
         <p>
-          All my notes reside
           <Link
             href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236"
             target="_blank"
             className={linkClassName}
           >
-            {" "}
-            here.
-          </Link>
+            Here
+          </Link>{" "}
+          lies a collection of my notes - mostly an archive of thoughts. 
         </p>
       </div>
       <div className="blogs my-12">
