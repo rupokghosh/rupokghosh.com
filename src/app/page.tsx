@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-3">
         <p>
-          Software engineering intern at{" "}
+          Previously a software engineering intern at{" "}
           <span>
             <Link href="https://www.shopify.com/ca" className={linkClassName}>
               shopify.
@@ -20,25 +20,13 @@ export default function Home() {
         </p>
         <p>At times, I find solace in writing. </p>
         <p>
-          Currently building
+          Some of my projects include {" "}
           <Link
             href="https://www.sharp-render.com/"
             target="_blank"
             className={linkClassName}
           >
-            {" "}
             sharprender
-          </Link>
-          , the next-gen web performance monitoring tool.
-        </p>
-        <p>
-          Some of my projects include ,{" "}
-          <Link
-            href="https://spotistats-chi.vercel.app"
-            target="_blank"
-            className={linkClassName}
-          >
-            statsify
           </Link>{" "}
           and{" "}
           <Link
@@ -68,30 +56,11 @@ export default function Home() {
             {" "}
             LinkedIn
           </Link>
-          ,
-          <Link
-            href="https://twitter.com/rupokghosh291"
-            target="_blank"
-            className={linkClassName}
-          >
-            {" "}
-            X
-          </Link>
-          , and email me{" "}
+          {" "}and email me{" "}
           <a href="mailto:rupokghosh291@gmail.com" className={linkClassName}>
             here
           </a>
           .
-        </p>
-        <p>
-          <Link
-            href="https://www.notion.so/rupokghosh/Notes-732320205a2b4a5bb3cabb2b62432236"
-            target="_blank"
-            className={linkClassName}
-          >
-            Here
-          </Link>{" "}
-          lies a collection of my notes - mostly an archive of thoughts. 
         </p>
       </div>
       <div className="blogs my-12">
