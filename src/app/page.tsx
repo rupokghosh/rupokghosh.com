@@ -11,41 +11,27 @@ export default function Home() {
       <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-3">
         <p>
-          Previously a software engineering intern at{" "}
-          <span>
-            <Link href="https://www.shopify.com/ca" className={linkClassName}>
-              shopify.
-            </Link>
-          </span>{" "}
-        </p>
-        <p>At times, I find solace in writing. </p>
-        <p>
-          Some of my projects include {" "}
-          <Link
-            href="https://www.sharp-render.com/"
-            target="_blank"
-            className={linkClassName}
-          >
-            sharprender
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="https://trucourselist.netlify.app/"
-            target="_blank"
-            className={linkClassName}
-          >
-            tru course graph
-          </Link>
-          . You can find my other notable projects on my{" "}
-          <Link
-            href="https://github.com/rupokghosh"
-            target="_blank"
-            className={linkClassName}
-          >
-            GitHub
+          Forward deployed engineer at{" "}
+          <Link href="https://www.delphi.ai/" className={linkClassName}>
+            Delphi
           </Link>
           .
         </p>
+        <p>
+          Open source at{" "}
+          <Link
+            href="https://github.com/EpicenterHQ"
+            target="_blank"
+            className={linkClassName}
+          >
+            Epicenter
+          </Link>
+          , previously a software engineering intern at{" "}
+          <Link href="https://www.shopify.com/ca" className={linkClassName}>
+            Shopify
+          </Link>
+        </p>
+        <p>At times, I find solace in writing. </p>
         <p>
           You can find me on
           <Link
@@ -56,7 +42,15 @@ export default function Home() {
             {" "}
             LinkedIn
           </Link>
-          {" "}and email me{" "}
+          ,{" "}
+          <Link
+            href="https://x.com/rupokghosh291"
+            target="_blank"
+            className={linkClassName}
+          >
+            X
+          </Link>
+          , and email me{" "}
           <a href="mailto:rupokghosh291@gmail.com" className={linkClassName}>
             here
           </a>
