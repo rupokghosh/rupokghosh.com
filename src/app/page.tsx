@@ -2,14 +2,14 @@ import Link from "next/link";
 import { getSortedPostsData } from "@/lib/posts";
 
 // Define a common className for links
-const linkClassName = "text-blue-700 hover:underline";
+const linkClassName = "underline decoration-1 underline-offset-2 hover:text-gray-600 transition-colors";
 
 export default function Home() {
   const allPostsData = getSortedPostsData();
   return (
-    <main className="mt-12 mx-10 md:ml-48">
-      <h1 className="text-4xl my-8 font-bold">Rupok Ghosh Adin</h1>
-      <div className="paragraphs flex flex-col gap-3">
+    <main className="max-w-2xl mx-auto px-8 py-16 md:py-24">
+      <h1 className="text-3xl md:text-4xl mb-12 font-semibold tracking-tight">Rupok Ghosh Adin</h1>
+      <div className="paragraphs flex flex-col gap-4 text-lg leading-relaxed">
         <p>
           Forward deployed engineer at{" "}
           <Link href="https://www.delphi.ai/" className={linkClassName}>
@@ -57,11 +57,11 @@ export default function Home() {
           .
         </p>
       </div>
-      <div className="blogs my-12">
-        <h1 className="text-xl font-bold mb-8">Writings</h1>
-        <ul className="list-disc pl-5">
+      <div className="blogs mt-16">
+        <h2 className="text-2xl font-semibold mb-8 tracking-tight">Writings</h2>
+        <ul className="space-y-3">
           {allPostsData.map(({ slug, title }) => (
-            <li key={slug} className="mb-2">
+            <li key={slug}>
               <Link href={`/blog/${slug}`} className={linkClassName}>
                 {title}
               </Link>
