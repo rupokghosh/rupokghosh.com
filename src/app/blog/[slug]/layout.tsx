@@ -1,11 +1,5 @@
 import { ReactNode } from "react";
 import { getPostData } from "@/lib/posts";
-import { Poppins } from "next/font/google";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 interface BlogPostLayoutProps {
   children: ReactNode;
@@ -46,9 +40,5 @@ export async function generateMetadata({ params }: BlogPostLayoutProps) {
 }
 
 export default function BlogPostLayout({ children }: BlogPostLayoutProps) {
-  return (
-    <html lang="en">
-      <body className={poppins.className}>{children}</body>
-    </html>
-  );
+  return <>{children}</>;
 }

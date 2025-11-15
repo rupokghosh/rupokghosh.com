@@ -16,18 +16,17 @@ export default async function PostPage({ params }: PostProps) {
   const postData = await getPostData(params.slug);
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-4">
-      {" "}
-      <div className="max-w-2xl w-full mt-10">
-        <h1 className="text-2xl font-bold text-left mb-1">{postData.title}</h1>
-        <p className="text-sm text-left mb-2">{formatDate(postData.date)}</p>
-        <Link href="/" className=" text-blue-700 hover:underline ">
+    <div className="min-h-screen flex flex-col items-center px-8">
+      <div className="max-w-2xl w-full py-16 md:py-24">
+        <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-3">{postData.title}</h1>
+        <p className="text-base mb-4 text-gray-600">{formatDate(postData.date)}</p>
+        <Link href="/" className="underline decoration-1 underline-offset-2 hover:text-gray-600 transition-colors">
           ← By Rupok Ghosh
         </Link>
-        <hr className="mb-8 mt-4" />
+        <hr className="my-8 border-gray-300" />
       </div>
       <div
-        className="prose prose-md max-w-2xl w-full text-left mb-20" // Ensure prose is applied only to content
+        className="prose prose-lg max-w-2xl w-full text-left mb-20 leading-relaxed"
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
     </div>
