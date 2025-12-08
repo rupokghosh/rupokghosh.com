@@ -28,7 +28,7 @@ export default function Home() {
           </Link>
           , previously a software engineering intern at{" "}
           <Link href="https://www.shopify.com/ca" className={linkClassName}>
-            Shopify
+            Shopify.
           </Link>
         </p>
         <p>
