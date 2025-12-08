@@ -31,7 +31,6 @@ export default function Home() {
             Shopify
           </Link>
         </p>
-        <p>At times, I find solace in writing. </p>
         <p>
           You can find me on
           <Link
@@ -56,8 +55,9 @@ export default function Home() {
           </a>
           .
         </p>
+        <p>Sometimes I like to pen my thoughts.</p>
       </div>
-      <div className="blogs mt-16">
+      <div className="blogs mt-10">
         <h2 className="text-2xl font-semibold mb-8 tracking-tight">Writings</h2>
         <ul className="space-y-3">
           {allPostsData.map(({ slug, title }) => (
