@@ -6,11 +6,11 @@ const URL = "https://rupokghosh.com";
 
 export default function sitemap() {
   const posts = getSortedPostsData().map(({ slug, date }) => ({
-    url: `${URL}/blog/${slug}`,
+    url: `${URL}/${slug}`,
     lastModified: date,
   }));
 
-  const routes = ["", "/blog"].map((route) => ({
+  const routes = [""].map((route) => ({
     url: `${URL}${route}`,
     lastModified: new Date().toISOString(),
   }));

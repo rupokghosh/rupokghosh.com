@@ -62,7 +62,7 @@ export default function Home() {
         <ul className="space-y-3">
           {allPostsData.map(({ slug, title }) => (
             <li key={slug}>
-              <Link href={`/blog/${slug}`} className={linkClassName}>
+              <Link href={`/${slug}`} className={linkClassName}>
                 {title}
               </Link>
             </li>

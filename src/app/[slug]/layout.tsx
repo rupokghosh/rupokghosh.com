@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: BlogPostLayoutProps) {
     openGraph: {
       title: postData.title,
       description: postData.excerpt,
-      url: `https://rupokghosh.com/blog/${params.slug}`,
+      url: `https://rupokghosh.com/${params.slug}`,
       type: "article",
       images: [
         {
