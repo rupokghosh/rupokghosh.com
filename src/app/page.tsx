@@ -11,24 +11,24 @@ export default function Home() {
       <h1 className="text-3xl md:text-4xl mb-12 font-semibold tracking-tight">Rupok Ghosh Adin</h1>
       <div className="paragraphs flex flex-col gap-4 text-lg leading-relaxed">
         <p>
-          Forward deployed engineer at{" "}
-          <Link href="https://www.delphi.ai/" className={linkClassName}>
-            Delphi
+          Software engineer at{" "}
+          <Link href="https://www.shopify.com/ca" className={linkClassName}>
+            Shopify
           </Link>
           .
         </p>
         <p>
-          Open source at{" "}
+          Previously a forward deployed engineer at{" "}
+          <Link href="https://www.delphi.ai/" className={linkClassName}>
+            Delphi
+          </Link>
+          , and worked on open source at{" "}
           <Link
             href="https://github.com/EpicenterHQ"
             target="_blank"
             className={linkClassName}
           >
-            Epicenter
-          </Link>
-          , previously a software engineering intern at{" "}
-          <Link href="https://www.shopify.com/ca" className={linkClassName}>
-            Shopify.
+            Epicenter.
           </Link>
         </p>
         <p>
