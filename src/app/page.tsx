@@ -12,13 +12,17 @@ export default function Home() {
       <div className="paragraphs flex flex-col gap-4 text-lg leading-relaxed">
         <p>
           Software engineer at{" "}
+          <Link href="https://heypocket.com" className={linkClassName}>
+            Pocket
+          </Link>{" "}
+          (YC W26).
+        </p>
+        <p>
+          Previously a software engineer at{" "}
           <Link href="https://www.shopify.com/ca" className={linkClassName}>
             Shopify
           </Link>
-          .
-        </p>
-        <p>
-          Previously a forward deployed engineer at{" "}
+          , a forward deployed engineer at{" "}
           <Link href="https://www.delphi.ai/" className={linkClassName}>
             Delphi
           </Link>
